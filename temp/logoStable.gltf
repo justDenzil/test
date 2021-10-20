@@ -1,0 +1,135 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Curve.002",
+            "rotation" : [
+                0.5,
+                -0.5,
+                0.5,
+                0.4999999701976776
+            ],
+            "scale" : [
+                159.15530395507812,
+                159.15530395507812,
+                159.15530395507812
+            ],
+            "translation" : [
+                0.2240549474954605,
+                0,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.005880248267203569,
+                0.005880248267203569,
+                0.005880248267203569
+            ],
+            "name" : "materials",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.008689779788255692,
+                    0.008689779788255692,
+                    0.008689779788255692,
+                    1
+                ],
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Curve.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 3514,
+            "max" : [
+                0.009569796733558178,
+                0,
+                -0.00018523819744586945
+            ],
+            "min" : [
+                -0.009680974297225475,
+                -0.0020000000949949026,
+                -0.019443228840827942
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 3514,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 3514,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 5088,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 18815,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 18816,
+            "uri" : "logoStable.bin"
+        }
+    ]
+}
